@@ -499,8 +499,8 @@ repositories:
       version: 2.16.5-0
     source:
       type: git
-      url: https://github.com/IntelRealSense/librealsense.git
-      version: &sedsigil ros2debian
+      url: https://github.com/yechun1/librealsense.git
+      version: ros2_buildfarm_fix
     status: maintained
   libyaml_vendor:
     release:

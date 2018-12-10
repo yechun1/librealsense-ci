@@ -5,8 +5,7 @@ distributions:
   crystal:
     doc_builds: {}
     notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-crystal@googlegroups.com
+      - chris.ye@intel.com
     release_builds:
       default: crystal/release-build.yaml
       ubv8: crystal/release-bionic-arm64-build.yaml
@@ -14,7 +13,7 @@ distributions:
       default: crystal/source-build.yaml
 jenkins_url: http://build.ros2.org
 notification_emails:
-  - steven+build.ros2.org@openrobotics.org
+  - chris.ye@intel.com
 prerequisites:
   debian_repositories:
   - http://repo.ros2.org/ubuntu/building
@@ -82,7 +81,7 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/nuclearsandwich/librealsense-ci/latest/index-v4.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/yechun1/librealsense-ci/latest/index-v4.yaml
 status_page_repositories:
   default:
     - http://repo.ros2.org/ubuntu/building

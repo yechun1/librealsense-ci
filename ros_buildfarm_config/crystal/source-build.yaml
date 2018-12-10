@@ -11,8 +11,7 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - steven+build.ros2.org@openrobotics.org
-  - ros2-buildfarm-crystal@googlegroups.com
+  - chris.ye@intel.com
   maintainers: true
 repositories:
   keys:
@@ -84,7 +83,7 @@ repositories:
 targets:
   _config:
     custom_rosdep_urls:
-      - https://raw.githubusercontent.com/nuclearsandwich/librealsense-ci/latest/rosdep/custom_sources.list
+      - https://raw.githubusercontent.com/yechun1/librealsense-ci/latest/rosdep/custom_sources.list
   ubuntu:
     bionic:
       amd64:
