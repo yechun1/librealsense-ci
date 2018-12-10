@@ -1,0 +1,6 @@
+libgl1-mesa-dev:
+  ubuntu: [libgl1-mesa-dev]
+libglfw3-dev:
+  ubuntu: [libglfw3-dev]
+libgtk-3-0-dev:
+  ubuntu: [libgtk-3-0-dev]

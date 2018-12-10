@@ -1,0 +1,5 @@
+yaml https://raw.githubusercontent.com/nuclearsandwich/librealsense-ci/rosdep/newkeys.yaml
+yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml
+
