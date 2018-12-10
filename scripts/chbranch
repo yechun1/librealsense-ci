@@ -1,0 +1,6 @@
+#!/bin/sh
+
+newbranch="$1"
+
+sed -e "s/source: &sedsigil .*/source: &sedsigil $1/" crystal/distribution.yaml > .chbranchtempfile
+mv .chbranchtempfile crystal/distribution.yaml
