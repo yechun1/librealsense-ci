@@ -82,6 +82,9 @@ repositories:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 targets:
+  _config:
+    custom_rosdep_urls:
+      - https://raw.githubusercontent.com/nuclearsandwich/librealsense-ci/latest/rosdep/custom_sources.list
   ubuntu:
     bionic:
       amd64:
